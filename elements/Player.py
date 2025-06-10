@@ -1,9 +1,18 @@
-# elements/player.py
 class Player:
     def __init__(self, money, name=""):
         self.stack = money
         self.name = name
         self.hand = []
+        self.status = 'playing'
+        self.has_exchanged = False
+
+    def bet(self, amount):
+        amount_to_bet = min(amount, self.stack)
+        self.stack -= amount_to_bet
+        return amount_to_bet
+
+    def win_pot(self, amount):
+        self.stack += amount
 
     def take_card(self, card):
         self.hand.append(card)

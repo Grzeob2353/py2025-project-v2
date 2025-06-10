@@ -1,10 +1,9 @@
-# elements/deck.py
 import random
 from .Card import Card
 
 class Deck:
     def __init__(self):
-        self.cards = [Card(rank, suit) for suit in 'shdc' for rank in '23456789JQKA']
+        self.cards = [Card(rank, suit) for suit in 'shdc' for rank in '23456789TJQKA']
 
     def __str__(self):
         return ' '.join(str(card) for card in self.cards)
@@ -13,6 +12,8 @@ class Deck:
         random.shuffle(self.cards)
 
     def deal(self, num_cards):
+        if num_cards > len(self.cards):
+            raise ValueError("Niewystarczająca liczba kart w talii do rozdania.")
         return [self.cards.pop() for _ in range(num_cards)]
 
     def discard_to_bottom(self, card):

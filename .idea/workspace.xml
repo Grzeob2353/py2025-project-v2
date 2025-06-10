@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75efa322-bef0-4aad-a7f2-6b636058bb2f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/elements/bot_player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileops/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileops/session_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/poker_table.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Deck.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Deck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/game_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/game_engine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,18 +45,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Card.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Deck.executor&quot;: &quot;Run&quot;,
-    &quot;Python.activate_this.executor&quot;: &quot;Run&quot;,
-    &quot;Python.game_engine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;game__logic&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Card.executor": "Run",
+    "Python.Deck.executor": "Run",
+    "Python.activate_this.executor": "Run",
+    "Python.client-gui.executor": "Run",
+    "Python.client.executor": "Run",
+    "Python.game_engine.executor": "Run",
+    "Python.gui.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.poker_gui.executor": "Run",
+    "Python.poker_server.executor": "Run",
+    "Python.server.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "game__logic"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

@@ -1,0 +1,51 @@
+{
+  "game_id": "abc123",
+  "timestamp": "2025-05-28T16:14:41.434708",
+  "stage": "showdown",
+  "players": [
+    {
+      "id": 1,
+      "name": "aa",
+      "stack": 150
+    },
+    {
+      "id": 2,
+      "name": "bb",
+      "stack": 250
+    }
+  ],
+  "deck": [
+    "Qh",
+    "4d",
+    "4c",
+    "Kc",
+    "Qc"
+  ],
+  "hands": {
+    "1": [
+      "Qh",
+      "4d",
+      "4c",
+      "Kc",
+      "Qc"
+    ],
+    "2": [
+      "6h",
+      "2s",
+      "Kd",
+      "7c",
+      "5c"
+    ]
+  },
+  "bets": [
+    {
+      "stage": "pre-flop",
+      "player_id": 1,
+      "action": "call",
+      "amount": 50,
+      "pot": 75
+    }
+  ],
+  "current_player": 2,
+  "pot": 75
+}
